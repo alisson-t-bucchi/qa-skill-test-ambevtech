@@ -46,10 +46,12 @@ The tests will cover the following key functionalities:
                                    |- validLogin.js
 ```
 2. API tests are in the path below:
+```bash
 - cypress/e2e/api-test
                  |- login.cy.js
                  |- product.cy.js
                  |- users.cy.js
+```
 
 **Types of Tests:**  
 - Application behaviour 
