@@ -1,8 +1,8 @@
-# 🔨 Technical Challenge - AmbecTech 
+# 🍺🔨 Technical Challenge - AmbecTech 🍻
 
 ## 📌 1. Introduction
 This test plan aims to validate the primary functionalities testing Swagger application in your [Frontend](https://front.serverest.dev/login) and [Swagger API](https://serverest.dev/) versions, ensuring users have a consistent and error-free experience. 
-The tests will be automated using **Cypress** with **JavaScript**, and the structure is based on the project object model (POM).  
+The tests will be automated using **Cypress** with **JavaScript**, and the structure is based on the **project object model (POM)** and **BDD test methodology**.
 
 ---
 
