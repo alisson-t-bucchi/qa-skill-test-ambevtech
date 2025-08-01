@@ -49,7 +49,6 @@ The 6 test cases are located in the e2e folder and must adhere to the business r
 |------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Valid User Login       | Perform login with valid credentials | 1. Send POST request to `/login` with valid email and password<br>2. Validate response status<br>3. Check for `authorization` property | Response status 200 and token returned     |
 | Product Registration   | Register product with admin token    | 1. Login with admin user to get token<br>2. Send POST request to `/produtos` with product data and token<br>3. Validate status and message | Response status 201 and success message    |
-| Invalid Login Attempt  | Reject login with invalid credentials | 1. Send POST request to `/login` with invalid email and password<br>2. Validate response status code<br>3. Check error feedback in body | Response status 401 or error message shown |
 | User Registration      | Register new user successfully        | 1. Send POST request to `/users` with unique email and valid data<br>2. Validate response status<br>3. Check success message in response | Response status 201 and success message    |
 
 
