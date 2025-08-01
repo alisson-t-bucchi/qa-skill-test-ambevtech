@@ -32,6 +32,7 @@ The tests will cover the following key functionalities:
 - Create the folder cypress/e2e/features/ for your .feature files.
 - Create the folder cypress/e2e/features/step_definitions/ for your .js step definition files.
 - Keep a clean and organised structure to make maintenance easier.
+  
 **Types of Tests:**  
 - Application behaviour 
 - Functionality
