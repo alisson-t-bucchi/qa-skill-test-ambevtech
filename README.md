@@ -28,11 +28,29 @@ The tests will cover the following key functionalities:
 
 ## 📌 3. Project file structure
 **Tool:** Cypress and Cucumber. 
+
 **Project File Structure**
+1. The BDD tests using Cucumber with Cypress have the structure described below:
 - Create the folder cypress/e2e/features/ for your .feature files.
 - Create the folder cypress/e2e/features/step_definitions/ for your .js step definition files.
 - Keep a clean and organised structure to make maintenance easier.
-  
+
+-Final path: cypress/e2e
+                      |- features
+                           |- failedLogin.feature
+                           |- userRegistration.feature
+                           |- validLogin.feature
+                           |-step-definitions
+                                   |- failedLogin.js
+                                   |- userRegistration.js
+                                   |- validLogin.js
+
+2. API tests are in the path below:
+- cypress/e2e/api-test
+                 |- login.cy.js
+                 |- product.cy.js
+                 |- users.cy.js
+
 **Types of Tests:**  
 - Application behaviour 
 - Functionality
